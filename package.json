@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sridhardigital.github.io/rockPaperScissors",
   "name": "rock-paper-scissors",
   "private": true,
   "version": "1.0.0",
@@ -32,6 +33,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "predeploy":"npn run build",
+    "deploy": "gh-pages -d build"
     "build": "craco build",
     "test": "craco test",
     "lint": "eslint .",
